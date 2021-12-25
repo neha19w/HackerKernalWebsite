@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HackerKernelWebsite</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<script>
+  function changetabtoRegister(){
+    document.getElementById("register_page").style.display="block";
+    document.getElementById("login_page").style.display="none"; 
+    document.getElementById("login_text").style.opacity="0.3";
+    document.getElementById("register_text").style.opacity="1";
+    document.getElementById("login_bottom_line").style.opacity="0.3";
+    document.getElementById("register_bottom_line").style.opacity="1"; 
+  }
+  function changetabtoLogin(){
+    document.getElementById("login_page").style.display="block"; 
+    document.getElementById("register_page").style.display="none";
+    document.getElementById("login_text").style.opacity="1";
+    document.getElementById("register_text").style.opacity="0.3";
+    document.getElementById("login_bottom_line").style.opacity="1";
+    document.getElementById("register_bottom_line").style.opacity="0.3"; 
+  }
+</script>
+
+</head>
+<body style="font-family: Comfortaa;">
+  <app-root></app-root>
+</body>
+
+</html>

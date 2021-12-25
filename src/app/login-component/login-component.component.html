@@ -1,0 +1,74 @@
+<div style="background-color: #1a2c3e;margin: 0px !important;height: 100%;width:100%">
+
+    <div style="position:absolute;padding: 50px;width: 60%;" id="welcome_page">
+        <img src="/assets/Asset2.png" width="300" height="300" />
+        <h2>Welcome!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit</p>
+    </div>
+
+
+    <div id="login_box">
+        <div style="background-color: white;border-radius: 10px;padding: 5px;height: 100%;margin:30px;">
+         
+            <div>
+                <table width="80%" align="center" style="margin-top: 30px;padding: 20px;border-spacing: 0px;">
+                    <tr width="100%">
+                        <td width="50%" align="center" id="login_text" onclick="changetabtoLogin()">Log In</td>
+                        <td width="50%" align="center" id="register_text" style="opacity:0.3"
+                            onclick="changetabtoRegister()">Register</td>
+                    </tr>
+
+                    <tr width="100%" style="position: relative;top: 8px;">
+                        <td width="50%" id="login_bottom_line" align="center"
+                            style="height: 1dp;background-color: #495866;"></td>
+                        <td width="50%" id="register_bottom_line" align="center"
+                            style="opacity:0.3;height: 1dp;background-color: #495866;"></td>
+                    </tr>
+                </table>
+                <br>
+
+                <div id="login_page" align="left" style="width: 100%;padding: 20px;">
+
+                    <label for="uname" style="font-size: 12px;opacity:0.6">Email/Mobile Number</label> <br>
+                    <input type="text" placeholder="dummy@gmail.com" name="uname" id="input_box_property" required><br>
+
+                    <label for="psw" style="font-size: 12px;opacity:0.6">Password</label><br>
+                    <input type="password" id="input_box_property" placeholder="   " name="psw" required><br>
+                    <div align="right" width="100%" style="width: 80%;font-size: 10px;">Forget Password </div><br>
+
+                    <br><br>
+                    <div style="width: 80%;" align="center">
+                        <button type="submit">LOGIN</button><br>
+                        <label for="psw" style="font-size: 10px;">Not a member yet? <a href="#"></a>
+                            Register</label><br>
+
+                    </div>
+                </div>
+
+
+                <div align="left" id="register_page" style="width: 100%;padding: 20px;display: none;">
+
+                    <label for="uname" style="font-size: 12px;opacity:0.6">Enter Name</label> <br>
+                    <input type="text" placeholder="Neha Wagadre" name="uname" id="input_box_property" required><br>
+
+                    <label for="uname" style="font-size: 12px;opacity:0.6">Enter Email/Mobile Number</label> <br>
+                    <input type="text" placeholder="Neha@gmail.com" name="uname" id="input_box_property" required><br>
+
+                    <input type="checkbox" style="font-size: 12px;opacity:0.6" name="check">
+                    <label for="check" style="font-size: 12px;opacity:1"> I accept the terms & condition</label><br>
+
+                    <br><br>
+                    <div style="width: 80%;" align="center">
+                        <button type="submit">Register</button><br>
+                        <label for="psw" style="font-size: 10px;">Already have a acoount?<a href="#"> Log In </a>
+                        </label><br>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

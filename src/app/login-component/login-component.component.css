@@ -1,0 +1,73 @@
+
+   
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #B4B4B4;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #495866;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+
+    border-radius: 10px;
+    height: 40px;
+    font-size: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  h2{
+      color: white;
+  }
+  p{
+    color: white;
+    font-size: 12px;
+}
+
+
+  .mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
+     display: none;
+}
+#login_box{
+  width: 350px;
+  height:80%;
+  margin-right: 0px;
+  margin-left: auto;
+  padding-top: 30px;
+}
+#input_box_property{
+  width: 80%;border-radius: 10px;
+}
+@media only screen and (max-width: 700px) {
+  #login_box{
+    width: 80%;
+    height:80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+  }
+  
+  #welcome_page{
+    display: none;
+  }
+}
+table,div,h2,p,input,label,button{
+  font-family: myFirstFont;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+ }
